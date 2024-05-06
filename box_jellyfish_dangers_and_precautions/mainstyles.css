@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+/*
+font-family: "Teachers", sans-serif;
+font-family: "Rubik", sans-serif;
+*/
+
+body{
+    background: #dde8f0;
+}
+
+nav{
+    font-family: "Teachers", sans-serif;
+    background: #3a57b6;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 12px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    background: #b0d1e4;
+    color: #000000;
+    padding: 12px;
+    display: block;
+    border: solid 8px #3a57b6;
+    text-align: center;
+}
+
+nav ul li a:hover{
+    background: #829bbb;
+}
+
+h1, h2, h3{
+    font-family: "Rubik", sans-serif;
+}
+
+nav h2, nav h3, main h2, main h3{
+    margin: 8px;
+    border-bottom: solid 4px #000000;
+    display: inline-block;
+}
+
+header{
+    background: #b0d1e4;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-bottom: solid 4px #000000;
+    margin-bottom: 8px;
+}
+
+p{
+    font-family: "Teachers", sans-serif;
+}
+
+main section{
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    max-width: 75%;
+}
+
+main img{
+    flex: 1 1 100%;
+    display: block;
+    max-width: 100%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+footer{
+    border-top: solid 4px #000000;
+    margin-top: 8px;
+}
+
+#large{
+    max-width: 50%;
+}
+
+#column{
+    columns: 2;
+}
+
+#column img{
+    max-width: 30%;
+}
+
+#column3{
+    columns: 3;
+}
+
+#column3 img{
+    width: 100px;
+    height: 100px;
+}
